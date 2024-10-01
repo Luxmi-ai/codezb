@@ -31,6 +31,6 @@ jobs:
         username: web
         key: ${{ secrets.LUXMI_00_PRIVATE_KEY }}
         port: 22
-        source: "dist/*"  # Adjust if necessary to match your build directory
-        target: "/var/www/codezb.com"  # Replace with the path where you want to deploy
+        source: "dist/"  
+        target: "/var/www/codezb.com/" 
 
